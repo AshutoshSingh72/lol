@@ -1,0 +1,20 @@
+<?php
+$mysqli = new mysqli("localhost"remotemysql.com"my_user"UW3C42uM4w"my_password"o7OS0usSW0"myUW3C42uM4wdb");
+
+// Check connection
+if ($mysqli -> connect_errno) {
+  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+  exit();
+}else "yep! Database connected,";
+?>
+
+
+
+
+
+
+
+
+
+
+
